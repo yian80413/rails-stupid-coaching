@@ -1,0 +1,41 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
+
+$lightyellow: #FFFFE2;
+
+.coach {
+  background-color: $lightyellow;
+  padding: 10px 10px 10px 10px;
+  margin: 40px 380px 40px 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-weight: 500px;
+}
+
+.submit {
+  background-color: beige;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba($color: #c1c1c1, $alpha: 0.1);
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+
+.input-box{
+  background-color: beige;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px rgba($color: #c1c1c1, $alpha: 0.1);
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.you {
+   font-family: 'Poppins', sans-serif;
+}

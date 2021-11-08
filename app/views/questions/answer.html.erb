@@ -1,0 +1,12 @@
+<h1> Stupid Coaching </h1>
+
+<div class = "you">
+<p><%= params[:question]%></p>
+<p>- <em>You</em> </p>
+</div>
+
+<div class ="coach">
+<%= @answer%>
+<p> - <em>The Coach </em></p>
+</div>
+<%= link_to "Ask it again", ask_path %>
